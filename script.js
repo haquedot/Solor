@@ -92,13 +92,81 @@ gsap.from(words, {
 
 gsap.from(".why-choose-item", {
   opacity: 0,
-  scale: 0.8, // Starts from 80% of its original size
+  scale: 0.8, 
   duration: 1,
   ease: "power2.out",
-  stagger: 0.2, // Delay between each card's animation
+  stagger: 0.2, 
   scrollTrigger: {
       trigger: ".our-why-choose",
-      start: "top 80%", // When the cards section is in the viewport
+      start: "top 80%", 
       toggleActions: "play none none none"
+  }
+});
+
+gsap.from(".calculator-box", {
+  opacity: 0,
+  scale: 0.8, 
+  y: 50,
+  duration: 1,
+  ease: "power2.out",
+  scrollTrigger: {
+      trigger: ".calculator-box",
+      start: "top 80%",
+      toggleActions: "play none none none", 
+      markers: false
+  }
+});
+
+
+gsap.from(".intro-video", {
+  opacity: 0,
+  scale: 0.8, 
+  y: 50, 
+  duration: 1,
+  ease: "power2.out",
+  scrollTrigger: {
+      trigger: ".intro-video",
+      start: "top 80%", 
+      toggleActions: "play none none none", 
+      markers: false
+  }
+});
+
+gsap.from(".footer-about", {
+  opacity: 0,
+  y: 50,
+  duration: 1,
+  ease: "power2.out",
+  scrollTrigger: {
+      trigger: ".footer-about",
+      start: "top 80%",
+      toggleActions: "play none none none",
+      markers: false
+  }
+});
+
+gsap.from(".footer-links", {
+  opacity: 0,
+  y: 50,
+  duration: 1,
+  ease: "power2.out",
+  scrollTrigger: {
+      trigger: ".footer-links",
+      start: "top 80%",
+      toggleActions: "play none none none",
+      markers: false
+  }
+});
+
+gsap.from(".footer-social-links", {
+  opacity: 0,
+  y: 50,
+  duration: 1,
+  ease: "power2.out",
+  scrollTrigger: {
+      trigger: ".footer-social-links",
+      start: "top 80%",
+      toggleActions: "play none none none",
+      markers: false
   }
 });
