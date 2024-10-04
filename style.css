@@ -3681,7 +3681,7 @@ header.main-header .header-sticky.active {
 /******************************************/
 
 footer.main-footer {
-	padding: 0 0 60px;
+	padding-top: 60px;
 	background: var(--primary-color) url(../images/footer-bg.svg) no-repeat bottom center;
 	background-size: cover;
 }
@@ -5491,7 +5491,7 @@ footer.main-footer {
 	}
 
 	footer.main-footer {
-		padding: 0 0 40px;
+		padding-top: 40px;
 	}
 
 	.footer-contact {
